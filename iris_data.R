@@ -5,3 +5,5 @@ library(tidyverse)
 data(iris)
 
 glimpse(iris)
+
+mean(iris$Sepal.Length)
