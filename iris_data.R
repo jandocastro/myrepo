@@ -7,3 +7,4 @@ data(iris)
 glimpse(iris)
 
 mean(iris$Sepal.Length)
+mean(iris$Sepal.Width)
