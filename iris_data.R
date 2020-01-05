@@ -13,3 +13,6 @@ table(iris$Species)
 
 a <- iris %>%
   select(Sepal.Length, Sepal.Width, Petal.Length, Petal.Width)
+
+a1 <- select_if(iris, is.numeric)
+a2 <- select_if(iris, is.factor)
